@@ -19,6 +19,7 @@ html, body {
     height: 100%;
     display: flex;
     flex-direction: column;
+    /*background-color: #0E0E22;*/
 }
 
 body {
