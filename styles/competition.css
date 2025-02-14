@@ -1,0 +1,64 @@
+.competition {
+ padding: 75px;
+}
+
+.competition__wrapper {
+
+}
+
+.competition__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.competition_item {
+    position: relative;
+    max-width: 45%;
+    background: #b9baf1;
+    padding: 25px;
+    border-radius: 13px;
+}
+
+.competition__title {
+    font-size: 32px;
+}
+
+.competition_description {
+    font-size: 18px;
+}
+
+.competition__img img {
+    max-width: 520px;
+    border-radius: 15px;
+}
+
+.competition__rating {
+    position: absolute;
+    padding: 5px;
+    border: 1px solid #0E0E22;
+    border-radius: 50%;
+    top: 10px;
+    right: 10px;
+    font-size: 23px;
+    color: #1c136e;
+}
+
+.competition__rating-number {
+
+}
+
+.competition__people {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 23px;
+    color: #1c136e;
+}
+
+.competition__people-number {
+
+}
