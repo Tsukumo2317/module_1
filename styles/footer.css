@@ -1,0 +1,44 @@
+.footer {
+    background: var(--blue);
+    padding: 40px 0;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer__block {
+
+}
+
+.footer__group {
+    display: grid;
+}
+
+.footer__group + .footer__group {
+    padding-top: 10px;
+}
+
+.footer__span {
+    font-size: 20px;
+    color: var(--lite);
+}
+
+.footer__link {
+    color: var(--lite);
+    transition: 0.3s ease;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.footer__list {
+    display: grid;
+    gap: 10px;
+}
+
+.footer__item {
+
+}

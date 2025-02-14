@@ -1,0 +1,72 @@
+.registration {
+    padding: 50px 0;
+}
+
+.form__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration__form {
+    display: grid;
+    align-items: start;
+    gap: 10px;
+    padding: 30px;
+    border: 1px solid var(--blue);
+    border-radius: 23px;
+}
+
+.registration__title {
+    text-align: center;
+}
+
+.registration__group {
+    display: grid;
+    align-items: start;
+
+}
+
+.registration__label {
+
+}
+
+.registration__input {
+    width: 400px;
+    height: 30px;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.registration__link {
+
+}
+
+.registration__btn {
+    padding: 12px 25px;
+    width: 100%;
+    color: var(--lite);
+    background: var(--blue);
+    border-radius: 15px;
+    border: none;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.registration__btn:hover {
+    filter: brightness(80%);
+}
+
+.registration__checkbox {
+    display: flex;
+    justify-content: start;
+    gap: 4px;
+}
+
+.group__gender {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

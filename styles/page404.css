@@ -1,0 +1,16 @@
+.empty {
+
+}
+
+.empty__wrapper {
+    min-height: 59vh;
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.empty__title {
+    font-size: 60px;
+    font-weight: 400;
+}
