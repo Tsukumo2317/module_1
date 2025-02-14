@@ -1,0 +1,13 @@
+.registr__select {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 15px;
+}
+
+.registration__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
